@@ -6,7 +6,8 @@ import {
   Minimize2, RefreshCcw, Sparkles, DoorOpen, DoorClosed, Info, Send, 
   Zap, Lock, Unlock, CreditCard, Building2, LogOut, MousePointer2, 
   Gamepad2, MapPin, UserPlus, MoreVertical, ShieldCheck, Eye, EyeOff, X,
-  ThumbsUp, Heart, Handshake, Linkedin, Fingerprint, ChevronUp, ChevronDown, Shield
+  ThumbsUp, Heart, Handshake, Fingerprint, ChevronUp, ChevronDown, Shield,
+  Link2
 } from 'lucide-react';
 
 // --- Theme & Brand Constants ---
@@ -856,7 +857,7 @@ export default function App() {
 
                      <div className="flex items-center space-x-4 pt-6">
                        <div className="w-8 h-8 rounded bg-white text-black flex items-center justify-center hover:scale-105 transition-transform cursor-pointer">
-                         <Linkedin size={20} fill="currentColor" strokeWidth={0} />
+                         <Link2 size={20} fill="currentColor" strokeWidth={0} />
                        </div>
                      </div>
                      <p className="text-xs font-medium mt-10 opacity-60" style={{ color: theme.text }}>© 2026 Aiai3d AS. All rights reserved.</p>
